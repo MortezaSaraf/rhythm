@@ -166,7 +166,9 @@ module main #(
 	output reg                               MOSI_C,
 	output reg                               MOSI_D,
 	
-	output reg										  sample_clk,
+	// Open-ephys
+	//output reg										  sample_clk,
+	output reg										  sync,
 	
 	input wire [15:0]								  TTL_in,
 	output wire [15:0]							  TTL_out,
@@ -381,6 +383,9 @@ module main #(
 	
 	//Open-Ephys specific registers
 	reg				ledsEnabled;
+	reg				sync_enabled = 1'b0;
+	reg [32:0]   	sync_divide;
+	reg				sample_clk;
 
 	// Opal Kelly USB Host Interface
 	
@@ -617,6 +622,7 @@ module main #(
 	//Open-ephys triggers
 	always @(posedge ep5atrigin[0]) begin
 		ledsEnabled <=	ep1fwirein[0];
+		//sync_enabled <= ep1fwirein[1];
 	end
 
 	// USB WireOut outputs
@@ -695,6 +701,13 @@ module main #(
 	 
 	 
 	);
+	
+	// Open-Ephys clock sync output
+//	ClkDivider sample_clock_div (
+//	 .reset(1'b0),
+//	 .reference_clk(sample_clk),
+//	 .clk_div(sync)
+//	 );
 	
 	
 	// 8-LED Display on Opal Kelly board

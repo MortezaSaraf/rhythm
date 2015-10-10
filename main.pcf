@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.58f on Wed Mar 11 02:14:41 2015
+// Written by: Map P.20131013 on Wed Oct 07 20:40:44 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -34,7 +34,7 @@ COMP "hi_inout<6>" LOCATE = SITE "AB2" LEVEL 1;
 COMP "hi_inout<7>" LOCATE = SITE "AA2" LEVEL 1;
 COMP "hi_inout<8>" LOCATE = SITE "Y7" LEVEL 1;
 COMP "hi_inout<9>" LOCATE = SITE "Y4" LEVEL 1;
-COMP "sample_clk" LOCATE = SITE "U20" LEVEL 1;
+COMP "sync" LOCATE = SITE "U20" LEVEL 1;
 COMP "mcb3_dram_ck_n" LOCATE = SITE "H3" LEVEL 1;
 COMP "mcb3_dram_cs_n" LOCATE = SITE "C3" LEVEL 1;
 COMP "mcb3_dram_we_n" LOCATE = SITE "F2" LEVEL 1;
@@ -335,57 +335,56 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "timestamp_22" BEL "timestamp_23" BEL "timestamp_24" BEL
         "timestamp_25" BEL "timestamp_26" BEL "timestamp_27" BEL
         "timestamp_28" BEL "timestamp_29" BEL "timestamp_30" BEL
-        "timestamp_31" BEL "sample_clk" BEL "channel_0" BEL "channel_1" BEL
-        "channel_2" BEL "channel_3" BEL "channel_4" BEL "channel_5" BEL
-        "MOSI_B" BEL "SCLK" BEL "MOSI_A" BEL "FIFO_data_in_0" BEL
-        "FIFO_data_in_1" BEL "FIFO_data_in_2" BEL "FIFO_data_in_3" BEL
-        "FIFO_data_in_4" BEL "FIFO_data_in_5" BEL "FIFO_data_in_6" BEL
-        "FIFO_data_in_7" BEL "FIFO_data_in_8" BEL "FIFO_data_in_9" BEL
-        "FIFO_data_in_10" BEL "FIFO_data_in_11" BEL "FIFO_data_in_12" BEL
-        "FIFO_data_in_13" BEL "FIFO_data_in_14" BEL "FIFO_data_in_15" BEL
-        "MOSI_C" BEL "MOSI_D" BEL "channel_MISO_0" BEL "channel_MISO_1" BEL
+        "timestamp_31" BEL "channel_0" BEL "channel_1" BEL "channel_2" BEL
+        "channel_3" BEL "channel_4" BEL "channel_5" BEL "SCLK" BEL "MOSI_C"
+        BEL "MOSI_A" BEL "MOSI_B" BEL "FIFO_write_to" BEL "MOSI_D" BEL
+        "FIFO_data_in_0" BEL "FIFO_data_in_1" BEL "FIFO_data_in_2" BEL
+        "FIFO_data_in_3" BEL "FIFO_data_in_4" BEL "FIFO_data_in_5" BEL
+        "FIFO_data_in_6" BEL "FIFO_data_in_7" BEL "FIFO_data_in_8" BEL
+        "FIFO_data_in_9" BEL "FIFO_data_in_10" BEL "FIFO_data_in_11" BEL
+        "FIFO_data_in_12" BEL "FIFO_data_in_13" BEL "FIFO_data_in_14" BEL
+        "FIFO_data_in_15" BEL "aux_cmd_index_1_0" BEL "aux_cmd_index_1_1" BEL
+        "aux_cmd_index_1_2" BEL "aux_cmd_index_1_3" BEL "aux_cmd_index_1_4"
+        BEL "aux_cmd_index_1_5" BEL "aux_cmd_index_1_6" BEL
+        "aux_cmd_index_1_7" BEL "aux_cmd_index_1_8" BEL "aux_cmd_index_1_9"
+        BEL "CS_b" BEL "channel_MISO_0" BEL "channel_MISO_1" BEL
         "channel_MISO_2" BEL "channel_MISO_3" BEL "channel_MISO_4" BEL
-        "channel_MISO_5" BEL "FIFO_write_to" BEL "CS_b" BEL
-        "aux_cmd_index_1_0" BEL "aux_cmd_index_1_1" BEL "aux_cmd_index_1_2"
-        BEL "aux_cmd_index_1_3" BEL "aux_cmd_index_1_4" BEL
-        "aux_cmd_index_1_5" BEL "aux_cmd_index_1_6" BEL "aux_cmd_index_1_7"
-        BEL "aux_cmd_index_1_8" BEL "aux_cmd_index_1_9" BEL
-        "aux_cmd_index_2_0" BEL "aux_cmd_index_2_1" BEL "aux_cmd_index_2_2"
-        BEL "aux_cmd_index_2_3" BEL "aux_cmd_index_2_4" BEL
-        "aux_cmd_index_2_5" BEL "aux_cmd_index_2_6" BEL "aux_cmd_index_2_7"
-        BEL "aux_cmd_index_2_8" BEL "aux_cmd_index_2_9" BEL
-        "aux_cmd_index_3_0" BEL "aux_cmd_index_3_1" BEL "aux_cmd_index_3_2"
-        BEL "aux_cmd_index_3_3" BEL "aux_cmd_index_3_4" BEL
-        "aux_cmd_index_3_5" BEL "aux_cmd_index_3_6" BEL "aux_cmd_index_3_7"
-        BEL "aux_cmd_index_3_8" BEL "aux_cmd_index_3_9" BEL
-        "max_aux_cmd_index_1_0" BEL "max_aux_cmd_index_1_1" BEL
+        "channel_MISO_5" BEL "aux_cmd_index_2_0" BEL "aux_cmd_index_2_1" BEL
+        "aux_cmd_index_2_2" BEL "aux_cmd_index_2_3" BEL "aux_cmd_index_2_4"
+        BEL "aux_cmd_index_2_5" BEL "aux_cmd_index_2_6" BEL
+        "aux_cmd_index_2_7" BEL "aux_cmd_index_2_8" BEL "aux_cmd_index_2_9"
+        BEL "aux_cmd_index_3_0" BEL "aux_cmd_index_3_1" BEL
+        "aux_cmd_index_3_2" BEL "aux_cmd_index_3_3" BEL "aux_cmd_index_3_4"
+        BEL "aux_cmd_index_3_5" BEL "aux_cmd_index_3_6" BEL
+        "aux_cmd_index_3_7" BEL "aux_cmd_index_3_8" BEL "aux_cmd_index_3_9"
+        BEL "max_aux_cmd_index_1_0" BEL "max_aux_cmd_index_1_1" BEL
         "max_aux_cmd_index_1_2" BEL "max_aux_cmd_index_1_3" BEL
         "max_aux_cmd_index_1_4" BEL "max_aux_cmd_index_1_5" BEL
         "max_aux_cmd_index_1_6" BEL "max_aux_cmd_index_1_7" BEL
         "max_aux_cmd_index_1_8" BEL "max_aux_cmd_index_1_9" BEL
-        "aux_cmd_bank_1_A_0" BEL "aux_cmd_bank_1_A_1" BEL "aux_cmd_bank_1_A_2"
-        BEL "aux_cmd_bank_1_A_3" BEL "max_aux_cmd_index_2_0" BEL
-        "max_aux_cmd_index_2_1" BEL "max_aux_cmd_index_2_2" BEL
-        "max_aux_cmd_index_2_3" BEL "max_aux_cmd_index_2_4" BEL
-        "max_aux_cmd_index_2_5" BEL "max_aux_cmd_index_2_6" BEL
-        "max_aux_cmd_index_2_7" BEL "max_aux_cmd_index_2_8" BEL
-        "max_aux_cmd_index_2_9" BEL "max_aux_cmd_index_3_0" BEL
+        "max_aux_cmd_index_2_0" BEL "max_aux_cmd_index_2_1" BEL
+        "max_aux_cmd_index_2_2" BEL "max_aux_cmd_index_2_3" BEL
+        "max_aux_cmd_index_2_4" BEL "max_aux_cmd_index_2_5" BEL
+        "max_aux_cmd_index_2_6" BEL "max_aux_cmd_index_2_7" BEL
+        "max_aux_cmd_index_2_8" BEL "max_aux_cmd_index_2_9" BEL
+        "aux_cmd_bank_1_B_0" BEL "aux_cmd_bank_1_B_1" BEL "aux_cmd_bank_1_B_2"
+        BEL "aux_cmd_bank_1_B_3" BEL "max_aux_cmd_index_3_0" BEL
         "max_aux_cmd_index_3_1" BEL "max_aux_cmd_index_3_2" BEL
         "max_aux_cmd_index_3_3" BEL "max_aux_cmd_index_3_4" BEL
         "max_aux_cmd_index_3_5" BEL "max_aux_cmd_index_3_6" BEL
         "max_aux_cmd_index_3_7" BEL "max_aux_cmd_index_3_8" BEL
-        "max_aux_cmd_index_3_9" BEL "aux_cmd_bank_1_D_0" BEL
-        "aux_cmd_bank_1_D_1" BEL "aux_cmd_bank_1_D_2" BEL "aux_cmd_bank_1_D_3"
-        BEL "aux_cmd_bank_1_B_0" BEL "aux_cmd_bank_1_B_1" BEL
-        "aux_cmd_bank_1_B_2" BEL "aux_cmd_bank_1_B_3" BEL "aux_cmd_bank_1_C_0"
+        "max_aux_cmd_index_3_9" BEL "aux_cmd_bank_1_A_0" BEL
+        "aux_cmd_bank_1_A_1" BEL "aux_cmd_bank_1_A_2" BEL "aux_cmd_bank_1_A_3"
+        BEL "aux_cmd_bank_2_A_0" BEL "aux_cmd_bank_2_A_1" BEL
+        "aux_cmd_bank_2_A_2" BEL "aux_cmd_bank_2_A_3" BEL "aux_cmd_bank_1_C_0"
         BEL "aux_cmd_bank_1_C_1" BEL "aux_cmd_bank_1_C_2" BEL
-        "aux_cmd_bank_1_C_3" BEL "aux_cmd_bank_2_C_0" BEL "aux_cmd_bank_2_C_1"
-        BEL "aux_cmd_bank_2_C_2" BEL "aux_cmd_bank_2_C_3" BEL
-        "aux_cmd_bank_2_A_0" BEL "aux_cmd_bank_2_A_1" BEL "aux_cmd_bank_2_A_2"
-        BEL "aux_cmd_bank_2_A_3" BEL "aux_cmd_bank_2_B_0" BEL
+        "aux_cmd_bank_1_C_3" BEL "aux_cmd_bank_1_D_0" BEL "aux_cmd_bank_1_D_1"
+        BEL "aux_cmd_bank_1_D_2" BEL "aux_cmd_bank_1_D_3" BEL
+        "aux_cmd_bank_2_D_0" BEL "aux_cmd_bank_2_D_1" BEL "aux_cmd_bank_2_D_2"
+        BEL "aux_cmd_bank_2_D_3" BEL "aux_cmd_bank_2_B_0" BEL
         "aux_cmd_bank_2_B_1" BEL "aux_cmd_bank_2_B_2" BEL "aux_cmd_bank_2_B_3"
-        BEL "aux_cmd_bank_2_D_0" BEL "aux_cmd_bank_2_D_1" BEL
-        "aux_cmd_bank_2_D_2" BEL "aux_cmd_bank_2_D_3" BEL "aux_cmd_bank_3_A_0"
+        BEL "aux_cmd_bank_2_C_0" BEL "aux_cmd_bank_2_C_1" BEL
+        "aux_cmd_bank_2_C_2" BEL "aux_cmd_bank_2_C_3" BEL "aux_cmd_bank_3_A_0"
         BEL "aux_cmd_bank_3_A_1" BEL "aux_cmd_bank_3_A_2" BEL
         "aux_cmd_bank_3_A_3" BEL "aux_cmd_bank_3_B_0" BEL "aux_cmd_bank_3_B_1"
         BEL "aux_cmd_bank_3_B_2" BEL "aux_cmd_bank_3_B_3" BEL
@@ -690,8 +689,8 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "max_timestep_23" BEL "max_timestep_24" BEL "max_timestep_25" BEL
         "max_timestep_26" BEL "max_timestep_27" BEL "max_timestep_28" BEL
         "max_timestep_29" BEL "max_timestep_30" BEL "max_timestep_31" BEL
-        "data_stream_2_en" BEL "data_stream_1_en" BEL "data_stream_3_en" BEL
-        "data_stream_4_en" BEL "data_stream_5_en" BEL "data_stream_6_en" BEL
+        "data_stream_3_en" BEL "data_stream_1_en" BEL "data_stream_2_en" BEL
+        "data_stream_6_en" BEL "data_stream_4_en" BEL "data_stream_5_en" BEL
         "data_stream_1_sel_0" BEL "data_stream_1_sel_1" BEL
         "data_stream_1_sel_2" BEL "data_stream_1_sel_3" BEL "data_stream_7_en"
         BEL "data_stream_8_en" BEL "data_stream_2_sel_0" BEL

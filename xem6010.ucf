@@ -297,9 +297,8 @@ NET  "MOSI_C"       LOC="F16"  | IOSTANDARD="LVCMOS33";
 NET  "MOSI_D"       LOC="F17"  | IOSTANDARD="LVCMOS33";
 
 
-# Sample clock output
-NET  "sample_clk"   LOC="U20"  | IOSTANDARD="LVCMOS33";
-
+# Open-Ephys sync output (BNC)
+NET  "sync"   		  LOC="U20"  | IOSTANDARD="LVCMOS33";
 
 # TTL inputs
 NET "TTL_in[0]"      LOC="P22"  | IOSTANDARD=LVCMOS33;

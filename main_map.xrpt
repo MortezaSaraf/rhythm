@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt64" product="ISE" version="14.5">
+<document OS="lin64" product="ISE" version="14.7">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Wed Mar 11 02:14:44 2015">
+  <application stringID="Map" timeStamp="Wed Oct  7 20:40:47 2015">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
-          <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.5\ISE_DS\ISE\\bin\nt64;C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.5\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.5\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.5\ISE_DS\PlanAhead\bin;C:\Xilinx\14.5\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.5\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.5\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.5\ISE_DS\common\bin\nt64;C:\Xilinx\14.5\ISE_DS\common\lib\nt64;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\MPI-RT\4.0.3.009\em64t\bin;C:\Program Files (x86)\Intel\MPI-RT\4.0.3.009\ia32\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\QT Lite\QTSystem;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Calibre2\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\Perforce;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\modeltech64_10.1c\win64;C:\altera\13.1\modelsim_ase\win32aloem;C:\Program Files (x86)\putty"/>
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/ISE"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="variable" value="PATHEXT"/>
-          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY"/>
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/ISE//lib/lin64:/opt/xilinx/14.7/ISE_DS/ISE/lib/lin64:/opt/xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/opt/xilinx/14.7/ISE_DS/ISE/sysgen/lib:/opt/xilinx/14.7/ISE_DS/EDK/lib/lin64:/opt/xilinx/14.7/ISE_DS/common/lib/lin64:/usr/local/hdf5/lib:/usr/local/cuda-7.0/lib64"/>
         </row>
         <row stringID="row" value="2">
-          <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE\"/>
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/EDK"/>
         </row>
         <row stringID="row" value="3">
-          <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
-          <item stringID="value" value="c:\lic\Xilinx_ise.lic"/>
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/ISE//bin/lin64:/opt/xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/xilinx/14.7/ISE_DS/ISE/sysgen/util:/opt/xilinx/14.7/ISE_DS/ISE/sysgen/bin:/opt/xilinx/14.7/ISE_DS/ISE/../../../DocNav:/opt/xilinx/14.7/ISE_DS/PlanAhead/bin:/opt/xilinx/14.7/ISE_DS/EDK/bin/lin64:/opt/xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/xilinx/14.7/ISE_DS/common/bin/lin64:/usr/local/cuda-7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/ghc/7.8.4/bin:/opt/cabal/1.20/bin:/home/jon/Public/Oat/oat/bin"/>
         </row>
         <row stringID="row" value="4">
-          <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\ISE"/>
+          <item stringID="variable" value="LMC_HOME"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
         <row stringID="row" value="5">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\EDK"/>
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/PlanAhead"/>
         </row>
         <row stringID="row" value="6">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="C:\Xilinx\14.5\ISE_DS\PlanAhead"/>
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/xilinx/14.7/ISE_DS/ISE/"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Microsoft Windows 7 , 64-bit"/>
-        <item stringID="User_EnvOsrelease" value="Service Pack 1  (build 7601)"/>
+        <item stringID="User_EnvOsname" value="LinuxMint"/>
+        <item stringID="User_EnvOsrelease" value="Linux Mint 17 Qiana"/>
       </item>
-      <item stringID="User_EnvHost" value="MAGI"/>
+      <item stringID="User_EnvHost" value="biggy"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz"/>
-          <item stringID="speed" value="3400 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz"/>
+          <item stringID="speed" value="800.000 MHz"/>
         </row>
       </table>
     </section>
@@ -70,16 +70,16 @@
       <item DEFAULT="None" label="-p" stringID="MAP_PARTNAME" value="xc6slx45-fgg484-2"/>
     </section>
     <task stringID="MAP_PACK_REPORT">
-      <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="4675">
-        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="4675"/>
+      <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="4674">
+        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="4674"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="0"/>
       </item>
-      <item AVAILABLE="27288" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="7386">
+      <item AVAILABLE="27288" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="7404">
         <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="165"/>
-        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="6331"/>
-        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="763"/>
+        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="6355"/>
+        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="757"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -121,22 +121,22 @@
       <section stringID="MAP_DESIGN_SUMMARY">
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="30"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="644760"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="2 mins 34 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="2 mins 37 secs "/>
+        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="31"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="1089772"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="2 mins 13 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="2 mins 17 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="4675">
-          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="4675"/>
+        <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="4674">
+          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="4674"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="0"/>
         </item>
-        <item AVAILABLE="27288" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="7439">
+        <item AVAILABLE="27288" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="7472">
           <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="165"/>
-          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="6331"/>
-          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="763"/>
+          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="6355"/>
+          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="757"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -149,22 +149,22 @@
           <item dataType="int" stringID="MAP_NUM_SRL_O5ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="4"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="23"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="109"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="22"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="125"/>
           <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="109"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="23"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="125"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="22"/>
           <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="0"/>
         </item>
-        <item AVAILABLE="6822" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="2664">
-          <item AVAILABLE="1809" dataType="int" stringID="MAP_NUM_SLICEL" value="654"/>
+        <item AVAILABLE="6822" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="2674">
+          <item AVAILABLE="1809" dataType="int" stringID="MAP_NUM_SLICEL" value="653"/>
           <item AVAILABLE="1602" dataType="int" stringID="MAP_NUM_SLICEM" value="14"/>
-          <item AVAILABLE="3411" dataType="int" stringID="MAP_NUM_SLICEX" value="1996"/>
+          <item AVAILABLE="3411" dataType="int" stringID="MAP_NUM_SLICEX" value="2007"/>
         </item>
-        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="8735">
-          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="4308"/>
-          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="1296"/>
-          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="3131"/>
+        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="8709">
+          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="4296"/>
+          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="1237"/>
+          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="3176"/>
         </item>
       </section>
       <section stringID="MAP_IOB_REPORTING">
@@ -1582,7 +1582,7 @@
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="DEFAULT"/>
           </row>
           <row stringID="row" value="191">
-            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="sample_clk"/>
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="sync"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>

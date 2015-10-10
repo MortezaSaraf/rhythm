@@ -1,10 +1,14 @@
-Release 14.5 - par P.58f (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Mar 11 02:16:29 2015
+Wed Oct  7 20:43:24 2015
 
 All signals are completely routed.
 
+WARNING:ParHelpers:362 - There are 1 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   sync_OBUF
 WARNING:ParHelpers:361 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC
    warnings.
 
