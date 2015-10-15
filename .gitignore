@@ -1,0 +1,21 @@
+# The Xilinx tools basically vomit intermediate build files and log files all
+# over your build directory Try to deal with that
+
+# Ignore everything
+*
+
+# Except these files
+!.gitignore
+!*.vhd
+!*.ucf
+!*.v
+!*.vh
+!*.xcf
+!*.xise
+!*.swp
+
+# Even if they are in sub dirs
+!*/
+
+# But reignore vhd files created during compilation
+netgen/

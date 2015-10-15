@@ -10,23 +10,23 @@ Target Device  : xc6slx45
 Target Package : fgg484
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Wed Oct  7 20:38:33 2015
+Mapped Date    : Tue Oct 13 17:48:13 2015
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:   31
+Number of warnings:   30
 Slice Logic Utilization:
-  Number of Slice Registers:                 4,674 out of  54,576    8%
-    Number used as Flip Flops:               4,674
+  Number of Slice Registers:                 4,739 out of  54,576    8%
+    Number used as Flip Flops:               4,739
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      7,472 out of  27,288   27%
-    Number used as logic:                    7,277 out of  27,288   26%
-      Number using O6 output only:           6,355
-      Number using O5 output only:             165
-      Number using O5 and O6:                  757
+  Number of Slice LUTs:                      7,556 out of  27,288   27%
+    Number used as logic:                    7,354 out of  27,288   26%
+      Number using O6 output only:           6,361
+      Number using O5 output only:             225
+      Number using O5 and O6:                  768
       Number used as ROM:                        0
     Number used as Memory:                      48 out of   6,408    1%
       Number used as Dual Port RAM:             20
@@ -41,21 +41,21 @@ Slice Logic Utilization:
         Number using O6 output only:             4
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:    147
-      Number with same-slice register load:    125
-      Number with same-slice carry load:        22
+    Number used exclusively as route-thrus:    154
+      Number with same-slice register load:    121
+      Number with same-slice carry load:        33
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 2,674 out of   6,822   39%
-  Number of MUXCYs used:                     1,432 out of  13,644   10%
-  Number of LUT Flip Flop pairs used:        8,709
-    Number with an unused Flip Flop:         4,296 out of   8,709   49%
-    Number with an unused LUT:               1,237 out of   8,709   14%
-    Number of fully used LUT-FF pairs:       3,176 out of   8,709   36%
-    Number of unique control sets:             190
+  Number of occupied Slices:                 2,677 out of   6,822   39%
+  Number of MUXCYs used:                     1,536 out of  13,644   11%
+  Number of LUT Flip Flop pairs used:        8,793
+    Number with an unused Flip Flop:         4,317 out of   8,793   49%
+    Number with an unused LUT:               1,237 out of   8,793   14%
+    Number of fully used LUT-FF pairs:       3,239 out of   8,793   36%
+    Number of unique control sets:             192
     Number of slice register sites lost
-      to control set restrictions:             670 out of  54,576    1%
+      to control set restrictions:             677 out of  54,576    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -79,8 +79,8 @@ Specific Feature Utilization:
   Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
     Number used as BUFIO2FBs:                    1
     Number used as BUFIO2FB_2CLKs:               0
-  Number of BUFG/BUFGMUXs:                       6 out of      16   37%
-    Number used as BUFGs:                        6
+  Number of BUFG/BUFGMUXs:                       7 out of      16   43%
+    Number used as BUFGs:                        7
     Number used as BUFGMUX:                      0
   Number of DCM/DCM_CLKGENs:                     2 out of       8   25%
     Number used as DCMs:                         1
@@ -108,11 +108,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                4.47
+Average Fanout of Non-Clock Nets:                4.45
 
-Peak Memory Usage:  1064 MB
-Total REAL time to MAP completion:  2 mins 13 secs 
-Total CPU time to MAP completion (all processors):   2 mins 17 secs 
+Peak Memory Usage:  1063 MB
+Total REAL time to MAP completion:  2 mins 22 secs 
+Total CPU time to MAP completion (all processors):   2 mins 26 secs 
 
 Table of Contents
 -----------------
@@ -150,25 +150,7 @@ WARNING:Pack:1653 - At least one timing constraint is impossible to meet because
 
    For more information about the Timing Analyzer, consult the Xilinx Timing Analyzer Reference manual; for more information on TRCE,
    consult the Xilinx Command Line Tools User Guide "TRACE" chapter.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<0> is sourced by
-   a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<0> is sourced by
-   a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<11> is sourced
-   by a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<5> is sourced by
-   a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<9> is sourced by
-   a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<13> is sourced
-   by a combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<3> is sourced by
    a combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<1> is sourced by
@@ -183,13 +165,29 @@ WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<5> is sourced by
 WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<7> is sourced by
    a combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:368 - The signal <sync_OBUF> is incomplete. The signal
-   is not driven by any source pin in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <host/core0/core0/a0/cb0/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_O> is
-   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<13> is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<3> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<5> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<9> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep46trigin<0> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ep43trigin<11> is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:367 - The signal
    <host/core0/core0/a0/cb0/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <host/core0/core0/a0/cb0/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:1414 - Issue with pin connections and/or configuration
    on
@@ -5210,7 +5208,7 @@ Derived Constraints for TS_SYS_CLK3
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_SYS_CLK3                    |     10.000ns|     87.169ns|   1105.718ns|           39|           18|        25977|     10921560|
+|TS_SYS_CLK3                    |     10.000ns|     87.169ns|   1105.718ns|           39|           18|        25977|     10850317|
 | TS_SDRAM_FIFO_inst_memc3_infra|     12.800ns|      3.204ns|          N/A|            0|            0|        13623|            0|
 | structure_inst_mcb_drp_clk_buf|             |             |             |             |             |             |             |
 | g_in                          |             |             |             |             |             |             |             |
@@ -5220,7 +5218,7 @@ Derived Constraints for TS_SYS_CLK3
 | structure_inst_clk_2x_0       |             |             |             |             |             |             |             |
 | TS_SDRAM_FIFO_inst_memc3_infra|      6.400ns|     38.720ns|          N/A|            9|            0|         4315|            0|
 | structure_inst_clk0_bufg_in   |             |             |             |             |             |             |             |
-| TS_variable_freq_clk_generator|     11.905ns|   1316.331ns|          N/A|            9|            0|     10903622|            0|
+| TS_variable_freq_clk_generator|     11.905ns|   1316.331ns|          N/A|            9|            0|     10832379|            0|
 | _inst_clkout_i                |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 

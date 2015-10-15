@@ -168,7 +168,7 @@ module main #(
 	
 	// Open-ephys
 	//output reg										  sample_clk,
-	output reg										  sync,
+	output wire										  sync,
 	
 	input wire [15:0]								  TTL_in,
 	output wire [15:0]							  TTL_out,
@@ -702,14 +702,13 @@ module main #(
 	 
 	);
 	
-	// Open-Ephys clock sync output
-//	ClkDivider sample_clock_div (
-//	 .reset(1'b0),
-//	 .reference_clk(sample_clk),
-//	 .clk_div(sync)
-//	 );
-	
-	
+	//Open-Ephys clock sync output
+	freqdiv #(1000) sample_clock_div(
+	 .out(sync),
+	 .clk(sample_clk),
+    .reset(1'b0)
+	 );
+
 	// 8-LED Display on Opal Kelly board
 	
 	assign led = ~{ led_in };
@@ -1073,9 +1072,9 @@ module main #(
 
 				ms_clk1_a: begin
 					if (channel == 0) begin				// sample clock goes high during channel 0 SPI command
-						sample_clk <= 1'b1;
-					end else begin
 						sample_clk <= 1'b0;
+					end else begin
+						sample_clk <= 1'b1;
 					end
 
 					if (channel == 0) begin				// grab TTL inputs, and grab current state of TTL outputs and manual DAC outputs

@@ -23,6 +23,12 @@
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 700: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">led8</arg>&gt;. Formal port size is <arg fmt="%d" index="2">24</arg>-bit while actual signal size is <arg fmt="%d" index="1">40</arg>-bit.
 </msg>
 
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/jon/Public/forks/rhythm/freqdiv.v" Line 39: Signal &lt;<arg fmt="%s" index="1">pcount</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/jon/Public/forks/rhythm/freqdiv.v" Line 40: Signal &lt;<arg fmt="%s" index="1">count</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/variable_freq_clk_generator.v" Line 94: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
 </msg>
 
@@ -149,6 +155,9 @@
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/jon/Public/forks/rhythm/SDRAM_FIFO.v" Line 234: Net &lt;<arg fmt="%s" index="1">selfrefresh_enter</arg>&gt; does not have a driver.
 </msg>
 
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 1089: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 1090: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
@@ -158,46 +167,40 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 1092: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 1093: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2071: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2072: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2081: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2082: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2091: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2092: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2219: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2220: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2225: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 977: Assignment to <arg fmt="%s" index="1">sample_clk</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2224: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/jon/Public/forks/rhythm/DAC_output_scalable_HPF.v" Line 64: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">19</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2316: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2315: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2340: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2339: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2364: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2363: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2388: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2387: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2412: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2411: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2436: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"/home/jon/Public/forks/rhythm/main.v" Line 2435: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">noise_suppress</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/jon/Public/forks/rhythm/okLibrary.v" Line 40: Port <arg fmt="%s" index="1">CLK180</arg> is not connected to this instance
@@ -206,97 +209,97 @@
 <msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/jon/Public/forks/rhythm/okLibrary.v" Line 68: Port <arg fmt="%s" index="1">BUSY</arg> is not connected to this instance
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">793</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">792</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">828</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">827</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">850</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">849</arg>: Output port &lt;<arg fmt="%s" index="3">RAM_data_out_A</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">RAM_bank_3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2284</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2283</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2284</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2283</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2308</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2307</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2308</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2307</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2332</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_4</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2331</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_4</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2332</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_4</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2331</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_4</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2356</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_5</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2355</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_5</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2356</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_5</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2355</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_5</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2380</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_6</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2379</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_6</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2380</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_6</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2379</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_6</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2404</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_7</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2403</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_7</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2404</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_7</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2403</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_7</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2428</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_8</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2427</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SYNC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_8</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2428</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_8</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2427</arg>: Output port &lt;<arg fmt="%s" index="3">DAC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DAC_output_8</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2470</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2469</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2470</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2469</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2486</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2485</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2486</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2485</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2502</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_4</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2501</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_4</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2502</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_4</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2501</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_4</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2518</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_5</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2517</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_5</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2518</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_5</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2517</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_5</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2534</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_6</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2533</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_6</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2534</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_6</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2533</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_6</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2550</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_7</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2549</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_7</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2550</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_7</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2549</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_7</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2566</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_8</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2565</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_CS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_8</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2566</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_8</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/main.v</arg>&quot; line <arg fmt="%s" index="2">2565</arg>: Output port &lt;<arg fmt="%s" index="3">ADC_SCLK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ADC_inout_8</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/jon/Public/forks/rhythm/SDRAM_FIFO.v</arg>&quot; line <arg fmt="%s" index="2">376</arg>: Output port &lt;<arg fmt="%s" index="3">p0_wr_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">memc3_wrapper_inst</arg>&gt; is unconnected or connected to loadless signal.
@@ -1034,6 +1037,48 @@
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">memcell_addr_reg_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">iodrp_mcb_controller</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_8/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_8/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_7/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_7/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_6/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_6/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_5/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_5/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_4/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_4/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_3/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_3/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_2/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_2/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
+</msg>
+
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">burst_cnt_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ddr2_state_machine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
@@ -1122,48 +1167,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">SDRAM_FIFO_inst/memc3_wrapper_inst/memc3_mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/iodrp_mcb_controller/read_data_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_8/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_8/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_7/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_7/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_6/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_6/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_5/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_5/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_4/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_4/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_3/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_3/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_2/ADC_CS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ADC_inout_2/ADC_SCLK</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DAC_output_8/DAC_SYNC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Oct 07 20:40:44 2015
+// Written by: Map P.20131013 on Tue Oct 13 17:50:33 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -335,56 +335,57 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "timestamp_22" BEL "timestamp_23" BEL "timestamp_24" BEL
         "timestamp_25" BEL "timestamp_26" BEL "timestamp_27" BEL
         "timestamp_28" BEL "timestamp_29" BEL "timestamp_30" BEL
-        "timestamp_31" BEL "channel_0" BEL "channel_1" BEL "channel_2" BEL
-        "channel_3" BEL "channel_4" BEL "channel_5" BEL "SCLK" BEL "MOSI_C"
-        BEL "MOSI_A" BEL "MOSI_B" BEL "FIFO_write_to" BEL "MOSI_D" BEL
-        "FIFO_data_in_0" BEL "FIFO_data_in_1" BEL "FIFO_data_in_2" BEL
-        "FIFO_data_in_3" BEL "FIFO_data_in_4" BEL "FIFO_data_in_5" BEL
-        "FIFO_data_in_6" BEL "FIFO_data_in_7" BEL "FIFO_data_in_8" BEL
-        "FIFO_data_in_9" BEL "FIFO_data_in_10" BEL "FIFO_data_in_11" BEL
-        "FIFO_data_in_12" BEL "FIFO_data_in_13" BEL "FIFO_data_in_14" BEL
-        "FIFO_data_in_15" BEL "aux_cmd_index_1_0" BEL "aux_cmd_index_1_1" BEL
-        "aux_cmd_index_1_2" BEL "aux_cmd_index_1_3" BEL "aux_cmd_index_1_4"
-        BEL "aux_cmd_index_1_5" BEL "aux_cmd_index_1_6" BEL
-        "aux_cmd_index_1_7" BEL "aux_cmd_index_1_8" BEL "aux_cmd_index_1_9"
-        BEL "CS_b" BEL "channel_MISO_0" BEL "channel_MISO_1" BEL
+        "timestamp_31" BEL "sample_clk" BEL "channel_0" BEL "channel_1" BEL
+        "channel_2" BEL "channel_3" BEL "channel_4" BEL "channel_5" BEL
+        "MOSI_B" BEL "SCLK" BEL "MOSI_A" BEL "FIFO_data_in_0" BEL
+        "FIFO_data_in_1" BEL "FIFO_data_in_2" BEL "FIFO_data_in_3" BEL
+        "FIFO_data_in_4" BEL "FIFO_data_in_5" BEL "FIFO_data_in_6" BEL
+        "FIFO_data_in_7" BEL "FIFO_data_in_8" BEL "FIFO_data_in_9" BEL
+        "FIFO_data_in_10" BEL "FIFO_data_in_11" BEL "FIFO_data_in_12" BEL
+        "FIFO_data_in_13" BEL "FIFO_data_in_14" BEL "FIFO_data_in_15" BEL
+        "MOSI_C" BEL "MOSI_D" BEL "channel_MISO_0" BEL "channel_MISO_1" BEL
         "channel_MISO_2" BEL "channel_MISO_3" BEL "channel_MISO_4" BEL
-        "channel_MISO_5" BEL "aux_cmd_index_2_0" BEL "aux_cmd_index_2_1" BEL
-        "aux_cmd_index_2_2" BEL "aux_cmd_index_2_3" BEL "aux_cmd_index_2_4"
-        BEL "aux_cmd_index_2_5" BEL "aux_cmd_index_2_6" BEL
-        "aux_cmd_index_2_7" BEL "aux_cmd_index_2_8" BEL "aux_cmd_index_2_9"
-        BEL "aux_cmd_index_3_0" BEL "aux_cmd_index_3_1" BEL
-        "aux_cmd_index_3_2" BEL "aux_cmd_index_3_3" BEL "aux_cmd_index_3_4"
-        BEL "aux_cmd_index_3_5" BEL "aux_cmd_index_3_6" BEL
-        "aux_cmd_index_3_7" BEL "aux_cmd_index_3_8" BEL "aux_cmd_index_3_9"
-        BEL "max_aux_cmd_index_1_0" BEL "max_aux_cmd_index_1_1" BEL
+        "channel_MISO_5" BEL "FIFO_write_to" BEL "CS_b" BEL
+        "aux_cmd_index_1_0" BEL "aux_cmd_index_1_1" BEL "aux_cmd_index_1_2"
+        BEL "aux_cmd_index_1_3" BEL "aux_cmd_index_1_4" BEL
+        "aux_cmd_index_1_5" BEL "aux_cmd_index_1_6" BEL "aux_cmd_index_1_7"
+        BEL "aux_cmd_index_1_8" BEL "aux_cmd_index_1_9" BEL
+        "aux_cmd_index_2_0" BEL "aux_cmd_index_2_1" BEL "aux_cmd_index_2_2"
+        BEL "aux_cmd_index_2_3" BEL "aux_cmd_index_2_4" BEL
+        "aux_cmd_index_2_5" BEL "aux_cmd_index_2_6" BEL "aux_cmd_index_2_7"
+        BEL "aux_cmd_index_2_8" BEL "aux_cmd_index_2_9" BEL
+        "aux_cmd_index_3_0" BEL "aux_cmd_index_3_1" BEL "aux_cmd_index_3_2"
+        BEL "aux_cmd_index_3_3" BEL "aux_cmd_index_3_4" BEL
+        "aux_cmd_index_3_5" BEL "aux_cmd_index_3_6" BEL "aux_cmd_index_3_7"
+        BEL "aux_cmd_index_3_8" BEL "aux_cmd_index_3_9" BEL
+        "max_aux_cmd_index_1_0" BEL "max_aux_cmd_index_1_1" BEL
         "max_aux_cmd_index_1_2" BEL "max_aux_cmd_index_1_3" BEL
         "max_aux_cmd_index_1_4" BEL "max_aux_cmd_index_1_5" BEL
         "max_aux_cmd_index_1_6" BEL "max_aux_cmd_index_1_7" BEL
         "max_aux_cmd_index_1_8" BEL "max_aux_cmd_index_1_9" BEL
-        "max_aux_cmd_index_2_0" BEL "max_aux_cmd_index_2_1" BEL
-        "max_aux_cmd_index_2_2" BEL "max_aux_cmd_index_2_3" BEL
-        "max_aux_cmd_index_2_4" BEL "max_aux_cmd_index_2_5" BEL
-        "max_aux_cmd_index_2_6" BEL "max_aux_cmd_index_2_7" BEL
-        "max_aux_cmd_index_2_8" BEL "max_aux_cmd_index_2_9" BEL
-        "aux_cmd_bank_1_B_0" BEL "aux_cmd_bank_1_B_1" BEL "aux_cmd_bank_1_B_2"
-        BEL "aux_cmd_bank_1_B_3" BEL "max_aux_cmd_index_3_0" BEL
+        "aux_cmd_bank_1_A_0" BEL "aux_cmd_bank_1_A_1" BEL "aux_cmd_bank_1_A_2"
+        BEL "aux_cmd_bank_1_A_3" BEL "max_aux_cmd_index_2_0" BEL
+        "max_aux_cmd_index_2_1" BEL "max_aux_cmd_index_2_2" BEL
+        "max_aux_cmd_index_2_3" BEL "max_aux_cmd_index_2_4" BEL
+        "max_aux_cmd_index_2_5" BEL "max_aux_cmd_index_2_6" BEL
+        "max_aux_cmd_index_2_7" BEL "max_aux_cmd_index_2_8" BEL
+        "max_aux_cmd_index_2_9" BEL "max_aux_cmd_index_3_0" BEL
         "max_aux_cmd_index_3_1" BEL "max_aux_cmd_index_3_2" BEL
         "max_aux_cmd_index_3_3" BEL "max_aux_cmd_index_3_4" BEL
         "max_aux_cmd_index_3_5" BEL "max_aux_cmd_index_3_6" BEL
         "max_aux_cmd_index_3_7" BEL "max_aux_cmd_index_3_8" BEL
-        "max_aux_cmd_index_3_9" BEL "aux_cmd_bank_1_A_0" BEL
-        "aux_cmd_bank_1_A_1" BEL "aux_cmd_bank_1_A_2" BEL "aux_cmd_bank_1_A_3"
-        BEL "aux_cmd_bank_2_A_0" BEL "aux_cmd_bank_2_A_1" BEL
-        "aux_cmd_bank_2_A_2" BEL "aux_cmd_bank_2_A_3" BEL "aux_cmd_bank_1_C_0"
+        "max_aux_cmd_index_3_9" BEL "aux_cmd_bank_1_D_0" BEL
+        "aux_cmd_bank_1_D_1" BEL "aux_cmd_bank_1_D_2" BEL "aux_cmd_bank_1_D_3"
+        BEL "aux_cmd_bank_1_B_0" BEL "aux_cmd_bank_1_B_1" BEL
+        "aux_cmd_bank_1_B_2" BEL "aux_cmd_bank_1_B_3" BEL "aux_cmd_bank_1_C_0"
         BEL "aux_cmd_bank_1_C_1" BEL "aux_cmd_bank_1_C_2" BEL
-        "aux_cmd_bank_1_C_3" BEL "aux_cmd_bank_1_D_0" BEL "aux_cmd_bank_1_D_1"
-        BEL "aux_cmd_bank_1_D_2" BEL "aux_cmd_bank_1_D_3" BEL
-        "aux_cmd_bank_2_D_0" BEL "aux_cmd_bank_2_D_1" BEL "aux_cmd_bank_2_D_2"
-        BEL "aux_cmd_bank_2_D_3" BEL "aux_cmd_bank_2_B_0" BEL
+        "aux_cmd_bank_1_C_3" BEL "aux_cmd_bank_2_C_0" BEL "aux_cmd_bank_2_C_1"
+        BEL "aux_cmd_bank_2_C_2" BEL "aux_cmd_bank_2_C_3" BEL
+        "aux_cmd_bank_2_A_0" BEL "aux_cmd_bank_2_A_1" BEL "aux_cmd_bank_2_A_2"
+        BEL "aux_cmd_bank_2_A_3" BEL "aux_cmd_bank_2_B_0" BEL
         "aux_cmd_bank_2_B_1" BEL "aux_cmd_bank_2_B_2" BEL "aux_cmd_bank_2_B_3"
-        BEL "aux_cmd_bank_2_C_0" BEL "aux_cmd_bank_2_C_1" BEL
-        "aux_cmd_bank_2_C_2" BEL "aux_cmd_bank_2_C_3" BEL "aux_cmd_bank_3_A_0"
+        BEL "aux_cmd_bank_2_D_0" BEL "aux_cmd_bank_2_D_1" BEL
+        "aux_cmd_bank_2_D_2" BEL "aux_cmd_bank_2_D_3" BEL "aux_cmd_bank_3_A_0"
         BEL "aux_cmd_bank_3_A_1" BEL "aux_cmd_bank_3_A_2" BEL
         "aux_cmd_bank_3_A_3" BEL "aux_cmd_bank_3_B_0" BEL "aux_cmd_bank_3_B_1"
         BEL "aux_cmd_bank_3_B_2" BEL "aux_cmd_bank_3_B_3" BEL
@@ -689,8 +690,8 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "max_timestep_23" BEL "max_timestep_24" BEL "max_timestep_25" BEL
         "max_timestep_26" BEL "max_timestep_27" BEL "max_timestep_28" BEL
         "max_timestep_29" BEL "max_timestep_30" BEL "max_timestep_31" BEL
-        "data_stream_3_en" BEL "data_stream_1_en" BEL "data_stream_2_en" BEL
-        "data_stream_6_en" BEL "data_stream_4_en" BEL "data_stream_5_en" BEL
+        "data_stream_2_en" BEL "data_stream_1_en" BEL "data_stream_3_en" BEL
+        "data_stream_4_en" BEL "data_stream_5_en" BEL "data_stream_6_en" BEL
         "data_stream_1_sel_0" BEL "data_stream_1_sel_1" BEL
         "data_stream_1_sel_2" BEL "data_stream_1_sel_3" BEL "data_stream_7_en"
         BEL "data_stream_8_en" BEL "data_stream_2_sel_0" BEL
@@ -836,47 +837,7 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "MOSI_cmd_C_6" BEL "MOSI_cmd_C_7" BEL "MOSI_cmd_C_8" BEL
         "MOSI_cmd_C_9" BEL "MOSI_cmd_C_10" BEL "MOSI_cmd_C_11" BEL
         "MOSI_cmd_C_12" BEL "MOSI_cmd_C_13" BEL "MOSI_cmd_C_14" BEL
-        "MOSI_cmd_C_15" BEL "main_state_FSM_FFd80" BEL "main_state_FSM_FFd81"
-        BEL "main_state_FSM_FFd79" BEL "main_state_FSM_FFd78" BEL
-        "main_state_FSM_FFd77" BEL "main_state_FSM_FFd76" BEL
-        "main_state_FSM_FFd75" BEL "main_state_FSM_FFd74" BEL
-        "main_state_FSM_FFd73" BEL "main_state_FSM_FFd72" BEL
-        "main_state_FSM_FFd71" BEL "main_state_FSM_FFd70" BEL
-        "main_state_FSM_FFd69" BEL "main_state_FSM_FFd68" BEL
-        "main_state_FSM_FFd67" BEL "main_state_FSM_FFd66" BEL
-        "main_state_FSM_FFd65" BEL "main_state_FSM_FFd64" BEL
-        "main_state_FSM_FFd63" BEL "main_state_FSM_FFd62" BEL
-        "main_state_FSM_FFd61" BEL "main_state_FSM_FFd60" BEL
-        "main_state_FSM_FFd59" BEL "main_state_FSM_FFd58" BEL
-        "main_state_FSM_FFd57" BEL "main_state_FSM_FFd56" BEL
-        "main_state_FSM_FFd55" BEL "main_state_FSM_FFd54" BEL
-        "main_state_FSM_FFd53" BEL "main_state_FSM_FFd52" BEL
-        "main_state_FSM_FFd51" BEL "main_state_FSM_FFd50" BEL
-        "main_state_FSM_FFd49" BEL "main_state_FSM_FFd48" BEL
-        "main_state_FSM_FFd47" BEL "main_state_FSM_FFd46" BEL
-        "main_state_FSM_FFd45" BEL "main_state_FSM_FFd44" BEL
-        "main_state_FSM_FFd43" BEL "main_state_FSM_FFd42" BEL
-        "main_state_FSM_FFd41" BEL "main_state_FSM_FFd40" BEL
-        "main_state_FSM_FFd39" BEL "main_state_FSM_FFd38" BEL
-        "main_state_FSM_FFd37" BEL "main_state_FSM_FFd36" BEL
-        "main_state_FSM_FFd35" BEL "main_state_FSM_FFd34" BEL
-        "main_state_FSM_FFd33" BEL "main_state_FSM_FFd32" BEL
-        "main_state_FSM_FFd31" BEL "main_state_FSM_FFd30" BEL
-        "main_state_FSM_FFd29" BEL "main_state_FSM_FFd28" BEL
-        "main_state_FSM_FFd27" BEL "main_state_FSM_FFd26" BEL
-        "main_state_FSM_FFd25" BEL "main_state_FSM_FFd24" BEL
-        "main_state_FSM_FFd23" BEL "main_state_FSM_FFd22" BEL
-        "main_state_FSM_FFd21" BEL "main_state_FSM_FFd20" BEL
-        "main_state_FSM_FFd19" BEL "main_state_FSM_FFd18" BEL
-        "main_state_FSM_FFd17" BEL "main_state_FSM_FFd16" BEL
-        "main_state_FSM_FFd15" BEL "main_state_FSM_FFd14" BEL
-        "main_state_FSM_FFd13" BEL "main_state_FSM_FFd12" BEL
-        "main_state_FSM_FFd11" BEL "main_state_FSM_FFd10" BEL
-        "main_state_FSM_FFd9" BEL "main_state_FSM_FFd8" BEL
-        "main_state_FSM_FFd7" BEL "main_state_FSM_FFd6" BEL
-        "main_state_FSM_FFd5" BEL "main_state_FSM_FFd4" BEL
-        "main_state_FSM_FFd3" BEL "main_state_FSM_FFd2" BEL
-        "main_state_FSM_FFd1" BEL "ADC_inout_8/ADC_register_15" BEL
+        "MOSI_cmd_C_15" BEL "ADC_inout_8/ADC_register_15" BEL
         "ADC_inout_8/ADC_register_14" BEL "ADC_inout_8/ADC_register_13" BEL
         "ADC_inout_8/ADC_register_12" BEL "ADC_inout_8/ADC_register_11" BEL
         "ADC_inout_8/ADC_register_10" BEL "ADC_inout_8/ADC_register_9" BEL
@@ -941,15 +902,56 @@ TIMEGRP variable_freq_clk_generator_inst_clkout_i = BEL "data_stream_TTL_in_0"
         "ADC_inout_1/ADC_register_4" BEL "ADC_inout_1/ADC_register_3" BEL
         "ADC_inout_1/ADC_register_2" BEL "ADC_inout_1/ADC_register_1" BEL
         "ADC_inout_1/ADC_register_0" BEL "ADC_inout_1/ADC_CS" BEL
-        "ADC_inout_1/ADC_SCLK" BEL "variable_freq_clk_generator_inst/BUFG_1"
-        BEL "DAC_output_8/state_clk" BEL "DAC_output_8/DAC_DIN" BEL
-        "DAC_output_7/DAC_DIN" BEL "DAC_output_6/DAC_DIN" BEL
-        "DAC_output_5/DAC_DIN" BEL "DAC_output_4/DAC_DIN" BEL
-        "DAC_output_3/DAC_DIN" BEL "DAC_output_2/DAC_DIN" BEL
-        "DAC_output_1/DAC_DIN" BEL "DAC_output_1/DAC_SYNC" BEL
-        "DAC_output_1/DAC_SCLK" BEL "external_digout_A" BEL
-        "external_digout_B" BEL "external_digout_C" BEL "external_digout_D"
-        PIN "RAM_bank_1/RAM_block_15/RAMB16BWER_inst_pins<29>" PIN
+        "ADC_inout_1/ADC_SCLK" BEL "main_state_FSM_FFd81" BEL
+        "main_state_FSM_FFd80" BEL "main_state_FSM_FFd79" BEL
+        "main_state_FSM_FFd78" BEL "main_state_FSM_FFd77" BEL
+        "main_state_FSM_FFd76" BEL "main_state_FSM_FFd75" BEL
+        "main_state_FSM_FFd74" BEL "main_state_FSM_FFd73" BEL
+        "main_state_FSM_FFd72" BEL "main_state_FSM_FFd71" BEL
+        "main_state_FSM_FFd70" BEL "main_state_FSM_FFd69" BEL
+        "main_state_FSM_FFd68" BEL "main_state_FSM_FFd67" BEL
+        "main_state_FSM_FFd66" BEL "main_state_FSM_FFd65" BEL
+        "main_state_FSM_FFd64" BEL "main_state_FSM_FFd63" BEL
+        "main_state_FSM_FFd62" BEL "main_state_FSM_FFd61" BEL
+        "main_state_FSM_FFd60" BEL "main_state_FSM_FFd59" BEL
+        "main_state_FSM_FFd58" BEL "main_state_FSM_FFd57" BEL
+        "main_state_FSM_FFd56" BEL "main_state_FSM_FFd55" BEL
+        "main_state_FSM_FFd54" BEL "main_state_FSM_FFd53" BEL
+        "main_state_FSM_FFd52" BEL "main_state_FSM_FFd51" BEL
+        "main_state_FSM_FFd50" BEL "main_state_FSM_FFd49" BEL
+        "main_state_FSM_FFd48" BEL "main_state_FSM_FFd47" BEL
+        "main_state_FSM_FFd46" BEL "main_state_FSM_FFd45" BEL
+        "main_state_FSM_FFd44" BEL "main_state_FSM_FFd43" BEL
+        "main_state_FSM_FFd42" BEL "main_state_FSM_FFd41" BEL
+        "main_state_FSM_FFd40" BEL "main_state_FSM_FFd39" BEL
+        "main_state_FSM_FFd38" BEL "main_state_FSM_FFd37" BEL
+        "main_state_FSM_FFd36" BEL "main_state_FSM_FFd35" BEL
+        "main_state_FSM_FFd34" BEL "main_state_FSM_FFd33" BEL
+        "main_state_FSM_FFd32" BEL "main_state_FSM_FFd31" BEL
+        "main_state_FSM_FFd30" BEL "main_state_FSM_FFd29" BEL
+        "main_state_FSM_FFd28" BEL "main_state_FSM_FFd27" BEL
+        "main_state_FSM_FFd26" BEL "main_state_FSM_FFd25" BEL
+        "main_state_FSM_FFd24" BEL "main_state_FSM_FFd23" BEL
+        "main_state_FSM_FFd22" BEL "main_state_FSM_FFd21" BEL
+        "main_state_FSM_FFd20" BEL "main_state_FSM_FFd19" BEL
+        "main_state_FSM_FFd18" BEL "main_state_FSM_FFd17" BEL
+        "main_state_FSM_FFd16" BEL "main_state_FSM_FFd15" BEL
+        "main_state_FSM_FFd14" BEL "main_state_FSM_FFd13" BEL
+        "main_state_FSM_FFd12" BEL "main_state_FSM_FFd11" BEL
+        "main_state_FSM_FFd10" BEL "main_state_FSM_FFd9" BEL
+        "main_state_FSM_FFd8" BEL "main_state_FSM_FFd7" BEL
+        "main_state_FSM_FFd6" BEL "main_state_FSM_FFd5" BEL
+        "main_state_FSM_FFd4" BEL "main_state_FSM_FFd3" BEL
+        "main_state_FSM_FFd2" BEL "main_state_FSM_FFd1" BEL
+        "variable_freq_clk_generator_inst/BUFG_1" BEL "DAC_output_8/state_clk"
+        BEL "DAC_output_8/DAC_DIN" BEL "DAC_output_7/DAC_DIN" BEL
+        "DAC_output_6/DAC_DIN" BEL "DAC_output_5/DAC_DIN" BEL
+        "DAC_output_4/DAC_DIN" BEL "DAC_output_3/DAC_DIN" BEL
+        "DAC_output_2/DAC_DIN" BEL "DAC_output_1/DAC_DIN" BEL
+        "DAC_output_1/DAC_SYNC" BEL "DAC_output_1/DAC_SCLK" BEL
+        "external_digout_A" BEL "external_digout_B" BEL "external_digout_C"
+        BEL "external_digout_D" PIN
+        "RAM_bank_1/RAM_block_15/RAMB16BWER_inst_pins<29>" PIN
         "RAM_bank_1/RAM_block_14/RAMB16BWER_inst_pins<29>" PIN
         "RAM_bank_1/RAM_block_13/RAMB16BWER_inst_pins<29>" PIN
         "RAM_bank_1/RAM_block_12/RAMB16BWER_inst_pins<29>" PIN
