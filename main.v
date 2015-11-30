@@ -386,6 +386,9 @@ module main #(
 	reg				sync_enabled = 1'b0;
 	reg [32:0]   	sync_divide;
 	reg				sample_clk;
+	reg 				sample_clk2 = 1'b0;
+	reg 				sync1 = 1'b0;
+	reg [31:0] 		ncount = 32'b0;
 
 	// Opal Kelly USB Host Interface
 	
@@ -702,10 +705,35 @@ module main #(
 	 
 	);
 	
+
+
+	always @(posedge sample_clk) begin
+		sample_clk2 <= ~sample_clk2;
+	end
+	
+	//assign sync = sample_clk2;
+	
+	always @ (posedge sample_clk2)
+	  begin
+		 ncount <= ncount + 1;
+		 if (reset)
+			begin
+				ncount <= 0;
+				sync1 <= 1'b0;			
+			end
+		 else if (ncount > 249)
+			begin
+			sync1 <= ~ sync1;
+		   ncount <= 32'b0;
+		   end
+	  end
+	assign sync = sync1;
+	
+	
 	//Open-Ephys clock sync output
 	freqdiv #(1000) sample_clock_div(
-	 .out(sync),
-	 .clk(sample_clk),
+	 .out(open),
+	 .clk(sample_clk2),
     .reset(1'b0)
 	 );
 
@@ -962,7 +990,8 @@ module main #(
 				  ms_cs_c    = 168,
 				  ms_cs_d    = 169,
 				  ms_cs_e    = 170,
-				  ms_cs_f    = 171,
+	
+	ms_cs_f    = 171,
 				  ms_cs_g    = 172,
 				  ms_cs_h    = 173,
 				  ms_cs_i    = 174,
